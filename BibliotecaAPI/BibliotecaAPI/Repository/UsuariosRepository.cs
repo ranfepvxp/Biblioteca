@@ -1,12 +1,16 @@
 ﻿using BibliotecaAPI.Context;
+using BibliotecaAPI.Managers;
 using BibliotecaAPI.Models;
 
 namespace BibliotecaAPI.Repository
 {
     public class UsuariosRepository : IUsuariosRepository
     {
+        readonly PasswordManager password = new PasswordManager();
+
         public UsuariosRepository()
         {
+
             using (var context = new BibliotecaDbContext())
             {
                 var usuarios = new List<Usuarios>
@@ -15,7 +19,7 @@ namespace BibliotecaAPI.Repository
                 {
                     Nombre = "Logen Nuevededos",
                     Email = "logen@hotmail.com",
-                    Contraseña="123",                  
+                    Contraseña=password.Encrypt("123"),                  
                     Tipo = 1
                    
                 },
@@ -23,14 +27,14 @@ namespace BibliotecaAPI.Repository
                 {
                     Nombre = "Jon Nieve",
                     Email = "jon@gmail.com",
-                    Contraseña="123",
+                    Contraseña=password.Encrypt("123"),
                     Tipo = 0
                 },
                 new Usuarios
                 {
                    Nombre = "Jezal Dan Luthar",
                     Email = "jezal@icloud.com",
-                    Contraseña="123",
+                    Contraseña=password.Encrypt("123"),
                     Tipo = 0
                 },
 
