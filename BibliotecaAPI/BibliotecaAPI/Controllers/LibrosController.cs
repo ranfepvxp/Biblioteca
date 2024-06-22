@@ -1,18 +1,33 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using BibliotecaAPI.Models;
+using BibliotecaAPI.Repository;
+using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace BibliotecaAPI.Controllers
 {
+
+
     [Route("api/[controller]")]
     [ApiController]
     public class LibrosController : ControllerBase
     {
+
+        readonly ILibrosRepository _librosRepository;
+
+
+
+
+        public LibrosController(ILibrosRepository librosRepository)
+        {
+            _librosRepository = librosRepository;
+        }
+
         // GET: api/<LibrosController>
         [HttpGet]
-        public IEnumerable<string> Get()
+        public ActionResult<List<Libros>> Get()
         {
-            return new string[] { "value1", "value2" };
+            return Ok(_librosRepository.GetLibros());
         }
 
         // GET api/<LibrosController>/5
