@@ -6,17 +6,11 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace BibliotecaAPI.Controllers
 {
-
-
     [Route("api/[controller]")]
     [ApiController]
     public class LibrosController : ControllerBase
     {
-
         readonly ILibrosRepository _librosRepository;
-
-
-
 
         public LibrosController(ILibrosRepository librosRepository)
         {

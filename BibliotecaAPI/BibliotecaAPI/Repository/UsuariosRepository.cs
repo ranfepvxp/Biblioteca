@@ -5,7 +5,6 @@ namespace BibliotecaAPI.Repository
 {
     public class UsuariosRepository : IUsuariosRepository
     {
-
         public UsuariosRepository()
         {
             using (var context = new BibliotecaDbContext())

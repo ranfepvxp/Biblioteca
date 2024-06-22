@@ -8,7 +8,7 @@ namespace BibliotecaAPI.Models
         [Key]
         public int Id { get; set; }
         public int UsuariosId { get; set; }
-        public int ExistenciasId { get; set; }
+        public int LibrosId { get; set; }
         public int Cantidad { get; set; }
         public DateTime FechaHora { get; set; }
         public string Estatus { get; set; }

@@ -12,7 +12,6 @@ namespace BibliotecaAPI.Models
         public string? Editorial { get; set; }
         public string? Año { get; set; }
         public string? Imagen { get; set; }
-
         public int CantidadDisponible { get; set; }
 
         [ForeignKey("LibrosId")]
