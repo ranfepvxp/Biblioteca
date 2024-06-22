@@ -11,7 +11,6 @@ namespace BibliotecaAPI.Context
             optionsBuilder.UseInMemoryDatabase(databaseName: "Biblioteca");
         }
         public DbSet<Libros> Libros { get; set; }
-        public DbSet<Existencias> Existencias { get; set; }
         public DbSet<Usuarios> Usuarios { get; set; }
         public DbSet<Prestamos> Prestamos { get; set; }
         public DbSet<Devoluciones> Devoluciones { get; set; }

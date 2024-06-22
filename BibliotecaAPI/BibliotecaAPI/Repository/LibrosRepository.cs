@@ -19,7 +19,8 @@ namespace BibliotecaAPI.Repository
                     Autor = "JRR Tolkien",
                     Año = "1977",
                     Editorial = "Minotauro",
-                    Imagen = "portadaesdla.jpg"
+                    Imagen = "portadaesdla.jpg",
+                    CantidadDisponible = 3
                 },
                 new Libros
                 {
@@ -27,7 +28,8 @@ namespace BibliotecaAPI.Repository
                     Autor = "George RR Martin",
                     Año = "199",
                     Editorial = "Gigamesh",
-                    Imagen = "portadajdt.jpg"
+                    Imagen = "portadajdt.jpg",
+                    CantidadDisponible = 4
                 },
                 new Libros
                 {
@@ -35,7 +37,8 @@ namespace BibliotecaAPI.Repository
                     Autor = "Joe Abercrombie",
                     Año = "2016",
                     Editorial = "Minotauro",
-                    Imagen = "portadalve.jpg"
+                    Imagen = "portadalve.jpg",
+                    CantidadDisponible = 5
                 },
 
                 };

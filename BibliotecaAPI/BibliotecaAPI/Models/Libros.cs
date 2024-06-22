@@ -13,8 +13,10 @@ namespace BibliotecaAPI.Models
         public string? Año { get; set; }
         public string? Imagen { get; set; }
 
+        public int CantidadDisponible { get; set; }
+
         [ForeignKey("LibrosId")]
-        public ICollection<Existencias>? Existencias { get; set; }
+        public ICollection<Prestamos>? Prestamos { get; set; }
 
     }
 }
