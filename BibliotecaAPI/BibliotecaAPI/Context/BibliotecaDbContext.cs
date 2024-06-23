@@ -13,7 +13,6 @@ namespace BibliotecaAPI.Context
         public DbSet<Libros> Libros { get; set; }
         public DbSet<Usuarios> Usuarios { get; set; }
         public DbSet<Prestamos> Prestamos { get; set; }
-        public DbSet<Devoluciones> Devoluciones { get; set; }
 
 
     }

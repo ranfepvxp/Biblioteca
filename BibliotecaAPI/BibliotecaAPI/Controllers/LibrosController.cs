@@ -33,8 +33,17 @@ namespace BibliotecaAPI.Controllers
 
         // POST api/<LibrosController>
         [HttpPost]
-        public void Post([FromBody] string value)
+        public ActionResult Post([FromBody] Libros libro)
         {
+            try
+            {
+                return Ok(_librosRepository.AddLibro(libro));
+            }
+            catch (Exception ex)
+            { 
+                return BadRequest(ex.Message);
+            }
+
         }
 
         // PUT api/<LibrosController>/5
@@ -45,8 +54,16 @@ namespace BibliotecaAPI.Controllers
 
         // DELETE api/<LibrosController>/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public ActionResult Delete(int id)
         {
+            try
+            {
+                return Ok(_librosRepository.DeleteLibro(id));
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
     }
 }

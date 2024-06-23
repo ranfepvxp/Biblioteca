@@ -11,12 +11,11 @@ namespace BibliotecaAPI.Models
         public int LibrosId { get; set; }
         public int Cantidad { get; set; }
         public DateTime FechaHora { get; set; }
+        public DateTime? FechaHoraDevolucion { get; set; }
+
         public string Estatus { get; set; }
         public Usuarios Usuarios { get; set; }
         public Libros Libros { get; set; }
-
-        [ForeignKey("PrestamosId")]
-        public ICollection<Devoluciones> Devoluciones { get; set; }
 
     }
 }

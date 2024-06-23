@@ -1,5 +1,7 @@
 ﻿using BibliotecaAPI.Context;
 using BibliotecaAPI.Models;
+using System.Diagnostics;
+using System.Reflection.Metadata.Ecma335;
 
 namespace BibliotecaAPI.Repository
 {
@@ -9,39 +11,76 @@ namespace BibliotecaAPI.Repository
         {
             using (var context = new BibliotecaDbContext())
             {
-                var libros = new List<Libros>
-                {
-                new Libros
-                {
-                    Nombre = "El Señor de los Anillos",
-                    Autor = "JRR Tolkien",
-                    Año = "1977",
-                    Editorial = "Minotauro",
-                    Imagen = "portadaesdla.jpg",
-                    CantidadDisponible = 3
-                },
-                new Libros
-                {
-                    Nombre = "Juego de Tronos",
-                    Autor = "George RR Martin",
-                    Año = "199",
-                    Editorial = "Gigamesh",
-                    Imagen = "portadajdt.jpg",
-                    CantidadDisponible = 4
-                },
-                new Libros
-                {
-                    Nombre = "La Voz de las Espadas",
-                    Autor = "Joe Abercrombie",
-                    Año = "2016",
-                    Editorial = "Minotauro",
-                    Imagen = "portadalve.jpg",
-                    CantidadDisponible = 5
-                },
+                var libros = new List<Libros>();
 
-                };
-                context.Libros.AddRange(libros);
+                libros = context.Libros.ToList();
+
+                if (libros.Count == 0)
+                {
+                    libros = new List<Libros>
+                    {
+                        new Libros
+                        {
+                            Nombre = "El Señor de los Anillos",
+                            Autor = "JRR Tolkien",
+                            Año = "1977",
+                            Editorial = "Minotauro",
+                            Imagen = "portadaesdla.jpg",
+                            CantidadDisponible = 3
+                        },
+                        new Libros
+                        {
+                            Nombre = "Juego de Tronos",
+                            Autor = "George RR Martin",
+                            Año = "199",
+                            Editorial = "Gigamesh",
+                            Imagen = "portadajdt.jpg",
+                            CantidadDisponible = 4
+                        },
+                        new Libros
+                        {
+                            Nombre = "La Voz de las Espadas",
+                            Autor = "Joe Abercrombie",
+                            Año = "2016",
+                            Editorial = "Minotauro",
+                            Imagen = "portadalve.jpg",
+                            CantidadDisponible = 5
+                        },
+
+                    };
+                    
+                    context.Libros.AddRange(libros);
+                    context.SaveChanges();
+                }
+             
+            }
+        }
+
+        public Libros AddLibro(Libros libro)
+        {
+            using (var context = new BibliotecaDbContext())
+            {
+                context.Libros.Add(libro);
                 context.SaveChanges();
+                return libro;
+            }                        
+        }
+
+        public bool DeleteLibro(int id)
+        {
+            using (var context = new BibliotecaDbContext())
+            {
+                var libro = context.Libros.FirstOrDefault(x => x.Id == id);
+                if (libro != null)
+                {
+                    context.Remove(libro);
+                    context.SaveChanges();
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
             }
         }
 
@@ -54,5 +93,8 @@ namespace BibliotecaAPI.Repository
                 return list;
             }
         }
+
+
+
     }
 }
