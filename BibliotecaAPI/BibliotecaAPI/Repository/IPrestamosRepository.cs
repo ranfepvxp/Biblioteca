@@ -4,7 +4,7 @@ namespace BibliotecaAPI.Repository
 {
     public interface IPrestamosRepository
     {
-        public Prestamos PrestarLibro(Prestamos prestamo);
+        public Libros PrestarLibro(Libros libro);
 
         public List<Prestamos> GetPrestamosPendientes();
 

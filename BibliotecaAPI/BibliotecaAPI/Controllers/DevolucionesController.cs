@@ -44,8 +44,9 @@ namespace BibliotecaAPI.Controllers
             }
         }
 
-        [HttpGet("{id}")]
-        public ActionResult Get(string id)
+        [HttpGet]
+        [Route("devoluciones/return-all")]
+        public ActionResult ReturnAll()
         {
             try
             {

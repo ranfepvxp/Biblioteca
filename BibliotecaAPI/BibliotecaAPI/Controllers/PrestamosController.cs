@@ -46,15 +46,23 @@ namespace BibliotecaAPI.Controllers
 
         // POST api/<PrestamosController>
         [HttpPost]
-        public ActionResult Post([FromBody] Prestamos prestamo)
+        public ActionResult Post([FromBody] Libros libro)
         {
-            if (_prestamosRepository.Existencias(prestamo.LibrosId))
+            try
             {
-                return Ok(_prestamosRepository.PrestarLibro(prestamo));
+
+                if (_prestamosRepository.Existencias(libro.Id))
+                {
+                    return Ok(_prestamosRepository.PrestarLibro(libro));
+                }
+                else
+                {
+                    return BadRequest();
+                }
             }
-            else
-            { 
-                return BadRequest();
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
             }
         }
 

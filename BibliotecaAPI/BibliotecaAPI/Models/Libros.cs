@@ -16,6 +16,5 @@ namespace BibliotecaAPI.Models
 
         [ForeignKey("LibrosId")]
         public ICollection<Prestamos>? Prestamos { get; set; }
-
     }
 }

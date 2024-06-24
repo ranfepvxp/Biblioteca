@@ -21,7 +21,6 @@ namespace BibliotecaAPI.Repository
                     Nombre = "Logen Nuevededos",
                     Email = "logen@hotmail.com",
                     Contraseña=password.Encrypt("123"),
-                    Tipo = 1
 
                 },
                 new Usuarios
@@ -29,14 +28,12 @@ namespace BibliotecaAPI.Repository
                     Nombre = "Jon Nieve",
                     Email = "jon@gmail.com",
                     Contraseña=password.Encrypt("123"),
-                    Tipo = 0
                 },
                 new Usuarios
                 {
                    Nombre = "Jezal Dan Luthar",
-                    Email = "jezal@icloud.com",
-                    Contraseña=password.Encrypt("123"),
-                    Tipo = 0
+                   Email = "jezal@icloud.com",
+                   Contraseña=password.Encrypt("123"),
                 },
 
                 };

@@ -9,6 +9,7 @@ namespace BibliotecaAPI.Repository
         {
             using (var context = new BibliotecaDbContext())
             {
+                var libros = context.Libros.ToList();
                 var libro = context.Libros.FirstOrDefault(x=>x.Id == id);
                 if (libro != null)
                 {
@@ -20,22 +21,30 @@ namespace BibliotecaAPI.Repository
             }
         }
 
-        public Prestamos PrestarLibro(Prestamos prestamo)
+        public Libros PrestarLibro(Libros libro)
         {
             using (var context = new BibliotecaDbContext())
             {
+                int librosId = libro.Id;
+                var prestamo = new Prestamos();
+                prestamo.LibrosId = librosId;
                 prestamo.UsuariosId = new Random().Next(1, 3);
                 prestamo.Estatus = "Prestado";
                 prestamo.Cantidad = 1;
                 prestamo.FechaHora = DateTime.Now;
+                prestamo.FechaHoraDevolucion = prestamo.FechaHora;
                 context.Prestamos.Add(prestamo);
                 context.SaveChanges();
+            
 
-                var libro = prestamo.Libros;
-                libro.CantidadDisponible--;
+                var editLibro = context.Libros.FirstOrDefault(x => x.Id == librosId);
+                editLibro.CantidadDisponible = editLibro.CantidadDisponible - 1;
                 context.SaveChanges();
 
-                return prestamo;
+                editLibro.Prestamos = null;
+
+
+                return editLibro;
             }
         }
 

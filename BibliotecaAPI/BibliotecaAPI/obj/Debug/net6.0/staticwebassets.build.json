@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "Hash": "CkWMnqkC/wvgAUXgZJaVUpXntiNU16Y+RKrPzM5uoj0=",
+  "Source": "BibliotecaAPI",
+  "BasePath": "_content/BibliotecaAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "BibliotecaAPI\\wwwroot",
+      "Source": "BibliotecaAPI",
+      "ContentRoot": "C:\\Users\\ranfe\\OneDrive\\Documentos\\Visual Studio 2022\\Projects\\Biblioteca\\BibliotecaAPI\\BibliotecaAPI\\wwwroot\\",
+      "BasePath": "_content/BibliotecaAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\ranfe\\OneDrive\\Documentos\\Visual Studio 2022\\Projects\\Biblioteca\\BibliotecaAPI\\BibliotecaAPI\\wwwroot\\Portadas\\portadaesdla.jpg",
+      "SourceId": "BibliotecaAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ranfe\\OneDrive\\Documentos\\Visual Studio 2022\\Projects\\Biblioteca\\BibliotecaAPI\\BibliotecaAPI\\wwwroot\\",
+      "BasePath": "_content/BibliotecaAPI",
+      "RelativePath": "Portadas/portadaesdla.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Portadas\\portadaesdla.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\ranfe\\OneDrive\\Documentos\\Visual Studio 2022\\Projects\\Biblioteca\\BibliotecaAPI\\BibliotecaAPI\\wwwroot\\Portadas\\portadajdt.jpg",
+      "SourceId": "BibliotecaAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ranfe\\OneDrive\\Documentos\\Visual Studio 2022\\Projects\\Biblioteca\\BibliotecaAPI\\BibliotecaAPI\\wwwroot\\",
+      "BasePath": "_content/BibliotecaAPI",
+      "RelativePath": "Portadas/portadajdt.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Portadas\\portadajdt.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\ranfe\\OneDrive\\Documentos\\Visual Studio 2022\\Projects\\Biblioteca\\BibliotecaAPI\\BibliotecaAPI\\wwwroot\\Portadas\\portadalve.jpg",
+      "SourceId": "BibliotecaAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ranfe\\OneDrive\\Documentos\\Visual Studio 2022\\Projects\\Biblioteca\\BibliotecaAPI\\BibliotecaAPI\\wwwroot\\",
+      "BasePath": "_content/BibliotecaAPI",
+      "RelativePath": "Portadas/portadalve.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Portadas\\portadalve.jpg"
+    }
+  ]
+}

@@ -11,9 +11,6 @@ namespace BibliotecaAPI.Models
         public string? Email { get; set; }
         public string? Contraseña { get; set; }
 
-        public int Tipo { get; set; } = 0;
-
-
         [ForeignKey("UsuariosId")]
         public ICollection<Prestamos>? Prestamos { get; set; }
     }
