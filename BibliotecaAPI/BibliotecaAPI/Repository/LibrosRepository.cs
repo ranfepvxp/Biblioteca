@@ -1,4 +1,5 @@
 ﻿using BibliotecaAPI.Context;
+using BibliotecaAPI.Managers;
 using BibliotecaAPI.Models;
 using System.Diagnostics;
 using System.Reflection.Metadata.Ecma335;
@@ -60,6 +61,17 @@ namespace BibliotecaAPI.Repository
         {
             using (var context = new BibliotecaDbContext())
             {
+                Base64ToImage base64 = new Base64ToImage();
+                string resultado = base64.ConvertBase64(libro.Imagen.ToString(),libro.Nombre.ToString());
+
+                if (!resultado.Contains("Error"))
+                {
+                    libro.Imagen = resultado;
+                }
+                else
+                {
+                    libro.Imagen = "";
+                }
                 context.Libros.Add(libro);
                 context.SaveChanges();
                 return libro;
