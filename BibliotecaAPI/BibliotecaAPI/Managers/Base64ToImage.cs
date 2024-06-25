@@ -22,9 +22,11 @@ namespace BibliotecaAPI.Managers
                     }
                 }
 
-                string UPLOAD_PATH = $"~/wwwroot/Portadas/";
-                string fileName = Path.Combine(UPLOAD_PATH, imgName);
+                string UPLOAD_PATH =   $"/wwwroot/Portadas/{imgName}";
+    
+                string fileName = Environment.CurrentDirectory + UPLOAD_PATH;
 
+                //fileName = fileName.Replace("~", "");
                 string substring = string.Empty;
                 if (base64Img.Contains(','))
                 {
@@ -34,6 +36,8 @@ namespace BibliotecaAPI.Managers
                 {
                     substring = base64Img;
                 }
+
+                
 
                 byte[] imageBytes = Convert.FromBase64String(substring);
                 File.WriteAllBytes(fileName, imageBytes);

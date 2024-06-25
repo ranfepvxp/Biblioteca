@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\ranfe\\OneDrive\\Documentos\\Visual Studio 2022\\Projects\\Biblioteca\\BibliotecaAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{42190198-65B5-414A-8F44-7B7CE394B515}|BibliotecaAPI\\BibliotecaAPI.csproj|c:\\users\\ranfe\\onedrive\\documentos\\visual studio 2022\\projects\\biblioteca\\bibliotecaapi\\bibliotecaapi\\managers\\base64toimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42190198-65B5-414A-8F44-7B7CE394B515}|BibliotecaAPI\\BibliotecaAPI.csproj|solutionrelative:bibliotecaapi\\managers\\base64toimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42190198-65B5-414A-8F44-7B7CE394B515}|BibliotecaAPI\\BibliotecaAPI.csproj|c:\\users\\ranfe\\onedrive\\documentos\\visual studio 2022\\projects\\biblioteca\\bibliotecaapi\\bibliotecaapi\\repository\\librosrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42190198-65B5-414A-8F44-7B7CE394B515}|BibliotecaAPI\\BibliotecaAPI.csproj|solutionrelative:bibliotecaapi\\repository\\librosrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42190198-65B5-414A-8F44-7B7CE394B515}|BibliotecaAPI\\BibliotecaAPI.csproj|c:\\users\\ranfe\\onedrive\\documentos\\visual studio 2022\\projects\\biblioteca\\bibliotecaapi\\bibliotecaapi\\controllers\\libroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42190198-65B5-414A-8F44-7B7CE394B515}|BibliotecaAPI\\BibliotecaAPI.csproj|solutionrelative:bibliotecaapi\\controllers\\libroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{42190198-65B5-414A-8F44-7B7CE394B515}|BibliotecaAPI\\BibliotecaAPI.csproj|c:\\users\\ranfe\\onedrive\\documentos\\visual studio 2022\\projects\\biblioteca\\bibliotecaapi\\bibliotecaapi\\repository\\prestamosrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42190198-65B5-414A-8F44-7B7CE394B515}|BibliotecaAPI\\BibliotecaAPI.csproj|solutionrelative:bibliotecaapi\\repository\\prestamosrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,20 +23,12 @@
       "RelativeMoniker": "D:0:0:{42190198-65B5-414A-8F44-7B7CE394B515}|BibliotecaAPI\\BibliotecaAPI.csproj|solutionrelative:bibliotecaapi\\controllers\\prestamoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42190198-65B5-414A-8F44-7B7CE394B515}|BibliotecaAPI\\BibliotecaAPI.csproj|c:\\users\\ranfe\\onedrive\\documentos\\visual studio 2022\\projects\\biblioteca\\bibliotecaapi\\bibliotecaapi\\controllers\\libroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42190198-65B5-414A-8F44-7B7CE394B515}|BibliotecaAPI\\BibliotecaAPI.csproj|solutionrelative:bibliotecaapi\\controllers\\libroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{42190198-65B5-414A-8F44-7B7CE394B515}|BibliotecaAPI\\BibliotecaAPI.csproj|c:\\users\\ranfe\\onedrive\\documentos\\visual studio 2022\\projects\\biblioteca\\bibliotecaapi\\bibliotecaapi\\repository\\iprestamosrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42190198-65B5-414A-8F44-7B7CE394B515}|BibliotecaAPI\\BibliotecaAPI.csproj|solutionrelative:bibliotecaapi\\repository\\iprestamosrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{42190198-65B5-414A-8F44-7B7CE394B515}|BibliotecaAPI\\BibliotecaAPI.csproj|c:\\users\\ranfe\\onedrive\\documentos\\visual studio 2022\\projects\\biblioteca\\bibliotecaapi\\bibliotecaapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42190198-65B5-414A-8F44-7B7CE394B515}|BibliotecaAPI\\BibliotecaAPI.csproj|solutionrelative:bibliotecaapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42190198-65B5-414A-8F44-7B7CE394B515}|BibliotecaAPI\\BibliotecaAPI.csproj|c:\\users\\ranfe\\onedrive\\documentos\\visual studio 2022\\projects\\biblioteca\\bibliotecaapi\\bibliotecaapi\\repository\\librosrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42190198-65B5-414A-8F44-7B7CE394B515}|BibliotecaAPI\\BibliotecaAPI.csproj|solutionrelative:bibliotecaapi\\repository\\librosrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{42190198-65B5-414A-8F44-7B7CE394B515}|BibliotecaAPI\\BibliotecaAPI.csproj|c:\\users\\ranfe\\onedrive\\documentos\\visual studio 2022\\projects\\biblioteca\\bibliotecaapi\\bibliotecaapi\\models\\libros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,6 +59,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Base64ToImage.cs",
+              "DocumentMoniker": "C:\\Users\\ranfe\\OneDrive\\Documentos\\Visual Studio 2022\\Projects\\Biblioteca\\BibliotecaAPI\\BibliotecaAPI\\Managers\\Base64ToImage.cs",
+              "RelativeDocumentMoniker": "BibliotecaAPI\\Managers\\Base64ToImage.cs",
+              "ToolTip": "C:\\Users\\ranfe\\OneDrive\\Documentos\\Visual Studio 2022\\Projects\\Biblioteca\\BibliotecaAPI\\BibliotecaAPI\\Managers\\Base64ToImage.cs",
+              "RelativeToolTip": "BibliotecaAPI\\Managers\\Base64ToImage.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAawCoAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T20:40:38.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "PrestamosRepository.cs",
               "DocumentMoniker": "C:\\Users\\ranfe\\OneDrive\\Documentos\\Visual Studio 2022\\Projects\\Biblioteca\\BibliotecaAPI\\BibliotecaAPI\\Repository\\PrestamosRepository.cs",
               "RelativeDocumentMoniker": "BibliotecaAPI\\Repository\\PrestamosRepository.cs",
@@ -73,26 +90,27 @@
               "RelativeDocumentMoniker": "BibliotecaAPI\\Controllers\\LibrosController.cs",
               "ToolTip": "C:\\Users\\ranfe\\OneDrive\\Documentos\\Visual Studio 2022\\Projects\\Biblioteca\\BibliotecaAPI\\BibliotecaAPI\\Controllers\\LibrosController.cs",
               "RelativeToolTip": "BibliotecaAPI\\Controllers\\LibrosController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAAfAAAA",
+              "ViewState": "AQIAABcAAAAAAAAAAADwvycAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-23T21:49:26.28Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "LibrosRepository.cs",
               "DocumentMoniker": "C:\\Users\\ranfe\\OneDrive\\Documentos\\Visual Studio 2022\\Projects\\Biblioteca\\BibliotecaAPI\\BibliotecaAPI\\Repository\\LibrosRepository.cs",
               "RelativeDocumentMoniker": "BibliotecaAPI\\Repository\\LibrosRepository.cs",
               "ToolTip": "C:\\Users\\ranfe\\OneDrive\\Documentos\\Visual Studio 2022\\Projects\\Biblioteca\\BibliotecaAPI\\BibliotecaAPI\\Repository\\LibrosRepository.cs",
               "RelativeToolTip": "BibliotecaAPI\\Repository\\LibrosRepository.cs",
-              "ViewState": "AQIAADcAAAAAAAAAAAAUwFMAAAANAAAA",
+              "ViewState": "AQIAADsAAAAAAAAAAAAYwEIAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T14:47:47.344Z"
+              "WhenOpened": "2024-06-22T14:47:47.344Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "LoginController.cs",
               "DocumentMoniker": "C:\\Users\\ranfe\\OneDrive\\Documentos\\Visual Studio 2022\\Projects\\Biblioteca\\BibliotecaAPI\\BibliotecaAPI\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "BibliotecaAPI\\Controllers\\LoginController.cs",
@@ -100,12 +118,11 @@
               "RelativeToolTip": "BibliotecaAPI\\Controllers\\LoginController.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAAABUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T22:49:24.082Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-22T22:49:24.082Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "IPrestamosRepository.cs",
               "DocumentMoniker": "C:\\Users\\ranfe\\OneDrive\\Documentos\\Visual Studio 2022\\Projects\\Biblioteca\\BibliotecaAPI\\BibliotecaAPI\\Repository\\IPrestamosRepository.cs",
               "RelativeDocumentMoniker": "BibliotecaAPI\\Repository\\IPrestamosRepository.cs",
@@ -113,12 +130,11 @@
               "RelativeToolTip": "BibliotecaAPI\\Repository\\IPrestamosRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwBEAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T16:30:34.608Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-23T16:30:34.608Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "PrestamosController.cs",
               "DocumentMoniker": "C:\\Users\\ranfe\\OneDrive\\Documentos\\Visual Studio 2022\\Projects\\Biblioteca\\BibliotecaAPI\\BibliotecaAPI\\Controllers\\PrestamosController.cs",
               "RelativeDocumentMoniker": "BibliotecaAPI\\Controllers\\PrestamosController.cs",
@@ -126,12 +142,11 @@
               "RelativeToolTip": "BibliotecaAPI\\Controllers\\PrestamosController.cs",
               "ViewState": "AQIAAEsAAAAAAAAAAAAAAFAAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T16:28:25.339Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-23T16:28:25.339Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Libros.cs",
               "DocumentMoniker": "C:\\Users\\ranfe\\OneDrive\\Documentos\\Visual Studio 2022\\Projects\\Biblioteca\\BibliotecaAPI\\BibliotecaAPI\\Models\\Libros.cs",
               "RelativeDocumentMoniker": "BibliotecaAPI\\Models\\Libros.cs",
@@ -143,7 +158,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "IUsuariosRepository.cs",
               "DocumentMoniker": "C:\\Users\\ranfe\\OneDrive\\Documentos\\Visual Studio 2022\\Projects\\Biblioteca\\BibliotecaAPI\\BibliotecaAPI\\Repository\\IUsuariosRepository.cs",
               "RelativeDocumentMoniker": "BibliotecaAPI\\Repository\\IUsuariosRepository.cs",
@@ -155,7 +170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "BibliotecaDbContext.cs",
               "DocumentMoniker": "C:\\Users\\ranfe\\OneDrive\\Documentos\\Visual Studio 2022\\Projects\\Biblioteca\\BibliotecaAPI\\BibliotecaAPI\\Context\\BibliotecaDbContext.cs",
               "RelativeDocumentMoniker": "BibliotecaAPI\\Context\\BibliotecaDbContext.cs",
@@ -167,7 +182,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "PasswordManager.cs",
               "DocumentMoniker": "C:\\Users\\ranfe\\OneDrive\\Documentos\\Visual Studio 2022\\Projects\\Biblioteca\\BibliotecaAPI\\BibliotecaAPI\\Managers\\PasswordManager.cs",
               "RelativeDocumentMoniker": "BibliotecaAPI\\Managers\\PasswordManager.cs",
