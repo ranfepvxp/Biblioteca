@@ -6,13 +6,16 @@ namespace BibliotecaAPI.Repository
     {
         public Libros PrestarLibro(Libros libro);
 
-        public List<Prestamos> GetPrestamosPendientes();
+        public dynamic GetPrestamosPendientes();
 
 
         public bool Existencias(int id);
 
         public Prestamos GetPrestamo(int id);
 
+        public bool DevolverLibro(int id);
+
+        public bool DevolverTodosLosLibros();
 
     }
 }

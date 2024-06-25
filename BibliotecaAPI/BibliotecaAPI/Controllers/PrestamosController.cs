@@ -66,6 +66,32 @@ namespace BibliotecaAPI.Controllers
             }
         }
 
+        [HttpGet]
+        [Route("devoluciones/return/{id}")]
+        public ActionResult returnOne(int id)
+        {
+            try
+            {
+                return Ok(_prestamosRepository.DevolverLibro(id));
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
 
+        [HttpGet]
+        [Route("devoluciones/return-all")]
+        public ActionResult ReturnAll()
+        {
+            try
+            {
+                return Ok(_prestamosRepository.DevolverTodosLosLibros());
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
     }
 }
