@@ -9,7 +9,6 @@ namespace BibliotecaAPI.Repository
     {
 
         BibliotecaDbContext context = new BibliotecaDbContext();
-        readonly PasswordManager password = new PasswordManager();
 
         public UsuariosRepository()
         {
@@ -20,20 +19,20 @@ namespace BibliotecaAPI.Repository
                 {
                     Nombre = "Logen Nuevededos",
                     Email = "logen@hotmail.com",
-                    Contraseña=password.Encrypt("123"),
+                    Contraseña="123",
 
                 },
                 new Usuarios
                 {
                     Nombre = "Jon Nieve",
                     Email = "jon@gmail.com",
-                    Contraseña=password.Encrypt("123"),
+                    Contraseña="123",
                 },
                 new Usuarios
                 {
                    Nombre = "Jezal Dan Luthar",
                    Email = "jezal@icloud.com",
-                   Contraseña=password.Encrypt("123"),
+                   Contraseña="123",
                 },
 
                 };
@@ -54,8 +53,7 @@ namespace BibliotecaAPI.Repository
 
             if (usuario != null)
             {
-                Debug.WriteLine($"contraseña: {usuario.Contraseña} == _contraseña: {password.Encrypt(_usuario.Contraseña)} - {password.Encrypt(_usuario.Contraseña)}");
-                if (usuario.Contraseña == password.Encrypt(_usuario.Contraseña))
+                if (usuario.Contraseña ==_usuario.Contraseña)
                 {
                     Debug.WriteLine("true");
                     return usuario;

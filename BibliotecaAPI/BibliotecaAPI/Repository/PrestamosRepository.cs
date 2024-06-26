@@ -57,12 +57,71 @@ namespace BibliotecaAPI.Repository
             }
         }
 
-        public List<Prestamos> GetPrestamosPendientes()
+        public dynamic GetPrestamosPendientes()
         {
             using (var context = new BibliotecaDbContext())
             {
-                var list = context.Prestamos.Where(x => x.Estatus == "Prestado").ToList();
+                var list = context.Prestamos.Where(x => x.Estatus == "Prestado").Select(x => new { 
+                    IdPrestamo = x.Id,
+                    Libro = x.Libros.Nombre,
+                    Imagen = x.Libros.Imagen,
+                    FechaHora = x.FechaHora                
+                }).ToList();
                 return list;
+            }
+        }
+
+        public bool DevolverTodosLosLibros()
+        {
+            using (var context = new BibliotecaDbContext())
+            {
+
+                var prestamos = context.Prestamos.Where(x => x.Estatus == "Prestado").ToList();
+
+                foreach (var prestamo in prestamos)
+                {
+                    if (prestamo != null)
+                    {
+                        prestamo.Estatus = "Devuelto";
+                        context.SaveChanges();
+
+                        int librosId = prestamo.LibrosId;
+                        var editLibro = context.Libros.FirstOrDefault(x => x.Id == librosId);
+                        if (editLibro != null)
+                        {
+                            editLibro.CantidadDisponible = editLibro.CantidadDisponible + 1;
+                            context.SaveChanges();
+                        }
+                    }
+                }
+
+                return true;
+            }
+
+        }
+
+        public bool DevolverLibro(int id)
+        {
+            using (var context = new BibliotecaDbContext())
+            {
+                var prestamo = context.Prestamos.Where(x => x.Id == id).FirstOrDefault();
+                if (prestamo != null)
+                {
+                    prestamo.Estatus = "Devuelto";
+                    context.SaveChanges();
+
+                    int librosId = prestamo.LibrosId;
+                    var editLibro = context.Libros.FirstOrDefault(x => x.Id == librosId);
+                    editLibro.CantidadDisponible = editLibro.CantidadDisponible + 1;
+                    context.SaveChanges();
+
+
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
             }
         }
 

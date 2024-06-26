@@ -137,3 +137,9 @@ C:\Users\ranfe\OneDrive\Documentos\Visual Studio 2022\Projects\Biblioteca\Biblio
 C:\Users\ranfe\OneDrive\Documentos\Visual Studio 2022\Projects\Biblioteca\BibliotecaAPI\BibliotecaAPI\bin\Debug\net6.0\System.Web.Http.dll
 C:\Users\ranfe\OneDrive\Documentos\Visual Studio 2022\Projects\Biblioteca\BibliotecaAPI\BibliotecaAPI\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Users\ranfe\OneDrive\Documentos\Visual Studio 2022\Projects\Biblioteca\BibliotecaAPI\BibliotecaAPI\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\User.DESKTOP-R6PJ9G1\Documents\Visual Studio 2022\Projects\Biblioteca\BibliotecaAPI\BibliotecaAPI\bin\Debug\net6.0\BibliotecaAPI.staticwebassets.runtime.json
+C:\Users\User.DESKTOP-R6PJ9G1\Documents\Visual Studio 2022\Projects\Biblioteca\BibliotecaAPI\BibliotecaAPI\bin\Debug\net6.0\System.Net.Http.Formatting.dll
+C:\Users\User.DESKTOP-R6PJ9G1\Documents\Visual Studio 2022\Projects\Biblioteca\BibliotecaAPI\BibliotecaAPI\bin\Debug\net6.0\System.Web.Http.dll
+C:\Users\User.DESKTOP-R6PJ9G1\Documents\Visual Studio 2022\Projects\Biblioteca\BibliotecaAPI\BibliotecaAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\User.DESKTOP-R6PJ9G1\Documents\Visual Studio 2022\Projects\Biblioteca\BibliotecaAPI\BibliotecaAPI\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\User.DESKTOP-R6PJ9G1\Documents\Visual Studio 2022\Projects\Biblioteca\BibliotecaAPI\BibliotecaAPI\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
