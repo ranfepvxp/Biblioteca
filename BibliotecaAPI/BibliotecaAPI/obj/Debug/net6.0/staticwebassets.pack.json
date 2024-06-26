@@ -1,15 +1,23 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\User.DESKTOP-R6PJ9G1\\Documents\\Visual Studio 2022\\Projects\\Biblioteca\\BibliotecaAPI\\BibliotecaAPI\\wwwroot\\Portadas\\portadaesdla.jpg",
+      "Id": "C:\\Users\\ranfe\\OneDrive\\Documentos\\Visual Studio 2022\\Projects\\Biblioteca\\BibliotecaAPI\\BibliotecaAPI\\wwwroot\\Portadas\\El-camino-de-los-reyes.jpeg",
+      "PackagePath": "staticwebassets\\Portadas\\El-camino-de-los-reyes.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ranfe\\OneDrive\\Documentos\\Visual Studio 2022\\Projects\\Biblioteca\\BibliotecaAPI\\BibliotecaAPI\\wwwroot\\Portadas\\Si-te-Gusta-la-Oscuridad.jpeg",
+      "PackagePath": "staticwebassets\\Portadas\\Si-te-Gusta-la-Oscuridad.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ranfe\\OneDrive\\Documentos\\Visual Studio 2022\\Projects\\Biblioteca\\BibliotecaAPI\\BibliotecaAPI\\wwwroot\\Portadas\\portadaesdla.jpg",
       "PackagePath": "staticwebassets\\Portadas\\portadaesdla.jpg"
     },
     {
-      "Id": "C:\\Users\\User.DESKTOP-R6PJ9G1\\Documents\\Visual Studio 2022\\Projects\\Biblioteca\\BibliotecaAPI\\BibliotecaAPI\\wwwroot\\Portadas\\portadajdt.jpg",
+      "Id": "C:\\Users\\ranfe\\OneDrive\\Documentos\\Visual Studio 2022\\Projects\\Biblioteca\\BibliotecaAPI\\BibliotecaAPI\\wwwroot\\Portadas\\portadajdt.jpg",
       "PackagePath": "staticwebassets\\Portadas\\portadajdt.jpg"
     },
     {
-      "Id": "C:\\Users\\User.DESKTOP-R6PJ9G1\\Documents\\Visual Studio 2022\\Projects\\Biblioteca\\BibliotecaAPI\\BibliotecaAPI\\wwwroot\\Portadas\\portadalve.jpg",
+      "Id": "C:\\Users\\ranfe\\OneDrive\\Documentos\\Visual Studio 2022\\Projects\\Biblioteca\\BibliotecaAPI\\BibliotecaAPI\\wwwroot\\Portadas\\portadalve.jpg",
       "PackagePath": "staticwebassets\\Portadas\\portadalve.jpg"
     },
     {
