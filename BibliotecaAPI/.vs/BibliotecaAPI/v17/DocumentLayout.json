@@ -3,6 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\ranfe\\OneDrive\\Documentos\\Visual Studio 2022\\Projects\\Biblioteca\\BibliotecaAPI\\",
   "Documents": [
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{42190198-65B5-414A-8F44-7B7CE394B515}|BibliotecaAPI\\BibliotecaAPI.csproj|c:\\users\\ranfe\\onedrive\\documentos\\visual studio 2022\\projects\\biblioteca\\bibliotecaapi\\bibliotecaapi\\managers\\base64toimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42190198-65B5-414A-8F44-7B7CE394B515}|BibliotecaAPI\\BibliotecaAPI.csproj|solutionrelative:bibliotecaapi\\managers\\base64toimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -45,6 +46,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{42190198-65B5-414A-8F44-7B7CE394B515}|BibliotecaAPI\\BibliotecaAPI.csproj|c:\\users\\ranfe\\onedrive\\documentos\\visual studio 2022\\projects\\biblioteca\\bibliotecaapi\\bibliotecaapi\\managers\\passwordmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42190198-65B5-414A-8F44-7B7CE394B515}|BibliotecaAPI\\BibliotecaAPI.csproj|solutionrelative:bibliotecaapi\\managers\\passwordmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{42190198-65B5-414A-8F44-7B7CE394B515}|BibliotecaAPI\\BibliotecaAPI.csproj|c:\\users\\ranfe\\onedrive\\documentos\\visual studio 2022\\projects\\biblioteca\\bibliotecaapi\\bibliotecaapi\\repository\\librosrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42190198-65B5-414A-8F44-7B7CE394B515}|BibliotecaAPI\\BibliotecaAPI.csproj|solutionrelative:bibliotecaapi\\repository\\librosrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> fc4257e20733952235e234b7951509b7281cd8f2
     }
   ],
   "DocumentGroupContainers": [
@@ -54,6 +59,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 1,
           "Children": [
             {
@@ -96,11 +102,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
+=======
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+>>>>>>> fc4257e20733952235e234b7951509b7281cd8f2
               "Title": "LibrosRepository.cs",
               "DocumentMoniker": "C:\\Users\\ranfe\\OneDrive\\Documentos\\Visual Studio 2022\\Projects\\Biblioteca\\BibliotecaAPI\\BibliotecaAPI\\Repository\\LibrosRepository.cs",
               "RelativeDocumentMoniker": "BibliotecaAPI\\Repository\\LibrosRepository.cs",
               "ToolTip": "C:\\Users\\ranfe\\OneDrive\\Documentos\\Visual Studio 2022\\Projects\\Biblioteca\\BibliotecaAPI\\BibliotecaAPI\\Repository\\LibrosRepository.cs",
               "RelativeToolTip": "BibliotecaAPI\\Repository\\LibrosRepository.cs",
+<<<<<<< HEAD
               "ViewState": "AQIAADsAAAAAAAAAAAAYwEIAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-22T14:47:47.344Z"
@@ -189,6 +203,12 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-22T19:09:44.363Z"
+=======
+              "ViewState": "AQIAAC4AAAAAAAAAAAAUwD4AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T20:35:26.914Z",
+              "EditorCaption": ""
+>>>>>>> fc4257e20733952235e234b7951509b7281cd8f2
             }
           ]
         }
