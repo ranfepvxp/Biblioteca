@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "CkWMnqkC/wvgAUXgZJaVUpXntiNU16Y+RKrPzM5uoj0=",
+  "Hash": "UQFGjX5vZ7wK+bKw6IqwT/NRde0aAGm7gJl0G3Yf548=",
   "Source": "BibliotecaAPI",
   "BasePath": "_content/BibliotecaAPI",
   "Mode": "Default",
@@ -16,6 +16,25 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\ranfe\\OneDrive\\Documentos\\Visual Studio 2022\\Projects\\Biblioteca\\BibliotecaAPI\\BibliotecaAPI\\wwwroot\\Portadas\\El-camino-de-los-reyes.jpeg",
+      "SourceId": "BibliotecaAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ranfe\\OneDrive\\Documentos\\Visual Studio 2022\\Projects\\Biblioteca\\BibliotecaAPI\\BibliotecaAPI\\wwwroot\\",
+      "BasePath": "_content/BibliotecaAPI",
+      "RelativePath": "Portadas/El-camino-de-los-reyes.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Portadas\\El-camino-de-los-reyes.jpeg"
+    },
     {
       "Identity": "C:\\Users\\ranfe\\OneDrive\\Documentos\\Visual Studio 2022\\Projects\\Biblioteca\\BibliotecaAPI\\BibliotecaAPI\\wwwroot\\Portadas\\portadaesdla.jpg",
       "SourceId": "BibliotecaAPI",
@@ -72,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Portadas\\portadalve.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\ranfe\\OneDrive\\Documentos\\Visual Studio 2022\\Projects\\Biblioteca\\BibliotecaAPI\\BibliotecaAPI\\wwwroot\\Portadas\\Si-te-Gusta-la-Oscuridad.jpeg",
+      "SourceId": "BibliotecaAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ranfe\\OneDrive\\Documentos\\Visual Studio 2022\\Projects\\Biblioteca\\BibliotecaAPI\\BibliotecaAPI\\wwwroot\\",
+      "BasePath": "_content/BibliotecaAPI",
+      "RelativePath": "Portadas/Si-te-Gusta-la-Oscuridad.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Portadas\\Si-te-Gusta-la-Oscuridad.jpeg"
     }
   ]
 }
